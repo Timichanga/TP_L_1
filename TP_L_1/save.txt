@@ -1,0 +1,30 @@
+Furniture:
+type: 2
+size: 20 20 20
+color: brown
+material: wood
+price: 2000
+end
+
+Furniture:
+type: 1
+size: 43 63 24
+color: yellow
+material: plastic
+price: 4245
+end
+
+Worker:
+name: Ron
+job_title: packer
+address: Rewef
+phone_number: 353424
+salary: 43000
+end
+
+Car:
+model: Ford
+number_plate: R453MN
+end
+
+end
