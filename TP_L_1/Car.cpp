@@ -63,7 +63,8 @@ void Car::Load(std::istream& is) {
 }
 
 
-bool Car::Menu() {
+bool Car::Menu() 
+{
     int choice;
     while (1) {
         std::cout << "Menu:\n";
@@ -72,7 +73,8 @@ bool Car::Menu() {
         std::cout << "3. Set car number plate\n";
         std::cout << "4. Exit\n";
         std::cin >> choice;
-        switch (choice) {
+        switch (choice) 
+        {
             case 1: 
                 this->Print();
                 break;
