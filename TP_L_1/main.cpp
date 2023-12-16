@@ -7,7 +7,8 @@
 #include "Worker.h"
 #include "Car.h"
 
-void PrintMenu() {
+void PrintMenu() 
+{
 	std::cout << "1) Add item" << std::endl;
 	std::cout << "2) Print all" << std::endl;
 	std::cout << "3) Select" << std::endl;
@@ -18,7 +19,8 @@ void PrintMenu() {
 }
 
 
-int main() {
+int main() 
+{
 	Keeper keeper(10);
 	keeper.AddSaveFile("./save.txt");
 	char input;
